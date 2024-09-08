@@ -3,14 +3,14 @@ This repository contains implementations of common sorting and searching algorit
 Algorithms Included
 Sorting Algorithms
 
-Bubble Sort
+## Bubble Sort
 
 Simple comparison-based algorithm
 Time complexity: O(n^2) average and worst case, O(n) best case
 Space complexity: O(1)
 
 
-Quick Sort
+## Quick Sort
 
 Efficient, divide-and-conquer algorithm
 Time complexity: O(n log n) average, O(n^2) worst case
@@ -18,16 +18,16 @@ Space complexity: O(log n)
 
 
 
-Searching Algorithms
+# Searching Algorithms
 
-Linear Search
+## Linear Search
 
 Simple search algorithm that checks every element sequentially
 Time complexity: O(n)
 Space complexity: O(1)
 
 
-Binary Search
+## Binary Search
 
 Efficient search algorithm for sorted arrays
 Time complexity: O(log n)
@@ -35,8 +35,8 @@ Space complexity: O(1)
 
 
 
-Usage
-To use these algorithms, import them from the algorithms.py file:
+### Usage
+To use these algorithms, import them from the sort.py file:
 pythonCopyfrom algorithms import bubble_sort, quick_sort, linear_search, binary_search
 
 # Example usage
@@ -44,12 +44,12 @@ unsorted_list = [64, 34, 25, 12, 22, 11, 90]
 sorted_list = bubble_sort(unsorted_list.copy())
 print("Sorted list:", sorted_list)
 
-target = 25
+## target = 25
 index = binary_search(sorted_list, target)
 print(f"Index of {target}:", index)
 Running the Examples
-The algorithms.py file includes example usage for each algorithm. To run these examples, simply execute the file:
-Copypython algorithms.py
+The sort.py file includes example usage for each algorithm. To run these examples, simply execute the file:
+python sort.py
 Contributing
 Contributions to improve the implementations or add new algorithms are welcome. Please ensure that any new algorithms are well-commented and include example usage.
 License
