@@ -37,7 +37,7 @@ Space complexity: O(1)
 
 ### Usage
 To use these algorithms, import them from the sort.py file:
-pythonCopyfrom algorithms import bubble_sort, quick_sort, linear_search, binary_search
+python from algorithms import bubble_sort, quick_sort, linear_search, binary_search
 
 # Example usage
 unsorted_list = [64, 34, 25, 12, 22, 11, 90]
