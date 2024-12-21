@@ -1,7 +1,5 @@
 # Sorting and Searching Algorithms in Python
 This repository contains implementations of common sorting and searching algorithms in Python. These implementations are meant for educational purposes and to demonstrate the basic principles of each algorithm.
-Algorithms Included
-Sorting Algorithms
 
 ## Bubble Sort
 
